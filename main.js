@@ -138,8 +138,8 @@ define(function (require, exports, module) {
 
     QuickOpen.addQuickOpenPlugin(
         {
-            name: "PHP functions",
-            fileTypes: ["php", "inc", "phtml"],
+            name: "Ruby functions",
+            fileTypes: ["rb", "erb", "rhtml"],
             done: done,
             search: search,
             match: match,
